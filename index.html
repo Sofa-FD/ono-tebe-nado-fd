@@ -10,13 +10,13 @@
   <link rel="stylesheet" href="styles/global.css">
   <link rel="stylesheet" href="styles/style.css">
 
-  <body>
+  <body class="body">
 
   <!-- СЕКЦИЯ ШАПКА -->
 <header class="header">
 
   <!-- меню -->
-  <nav class="menu">
+  <nav class="header__menu">
     <ul>
       <li> <a>главная</a> </li>
       <li> <a>посмотреть лоты</a> </li>
@@ -25,18 +25,21 @@
   </nav>
 
   <!-- логотип -->
-  <a href="images/logo-black.svg" class="logo"> </a>
+  <a class="logo">
+    <img src="images/logo.svg" alt="Логотип" >
+  </a>
+
 
   <!-- адрес и контакты -->
   <address class="contacts">
 
-    <ul>
-      <li>Телефон: +9 999 555 5555</li>
-      <li>info@sobaka.ge</li>
-      <li>наб. Принсенграхт 263- 265, Амстердам</li>
-    </ul>
+    <a href="tel:+99995555555">+9 999 555 5555</a>
 
+    <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+
+    <span>наб. Принсенграхт 263- 265, Амстердам</span>
   </address>
+
 
 </header>
 
@@ -95,7 +98,7 @@
 
         <!-- Первая колонка -->
         <div class="logo-column">
-          <img src="images/logo-column.png" alt="логотип" class="logo">
+          <img src="images/logo-column.svg" alt="логотип" class="logo">
         </div>
 
         <!-- вторая -->
@@ -123,39 +126,39 @@
     <!-- адрес и контакты -->
     <address class="contacts">
 
-      <ul>
-        <li>Телефон: +9 999 555 5555</li>
-        <li>info@sobaka.ge</li>
-        <li>наб. Принсенграхт 263- 265, Амстердам</li>
-      </ul>
+      <a href="tel:+99995555555">+9 999 555 5555</a>
 
-      </address>
+      <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+
+      <span>наб. Принсенграхт 263- 265, Амстердам</span>
+    </address>
+
     <!-- меню -->
-    <nav class="menu">
-      <ul>
-        <li> <a>главная</a> </li>
-        <li> <a>посмотреть лоты</a> </li>
-        <li> <a>об аукционе</a> </li>
+    <nav class="footer__menu">
+      <ul class="footer__menu-list">
+        <li class="footer__menu-link_active"> <a>главная</a> </li>
+        <li class="footer__menu-list-item"> <a>посмотреть лоты</a> </li>
+        <li class="footer__menu-list-item"> <a>об аукционе</a> </li>
       </ul>
     </nav>
 
     <!-- cписок ссылок на соцсети -->
-    <ul class="social">
-      <li>
-        <a href="https://youtube.com" target="_blank">
-        <img src="images/yt.svg" alt="YouTube">
+    <ul class="footer__social-list">
+      <li class="footer__social-list-item">
+        <a class="footer__social-link" href="https://youtube.com" target="_blank">
+        <img class="footer__social-icon" src="images/yt.svg" alt="YouTube">
         </a>
       </li>
 
-      <li>
-        <a href="https://vk.com" target="_blank">
-          <img src="images/vk.svg" alt="VK">
+      <li class="footer__social-list-item">
+        <a class="footer__social-link" href="https://vk.com" target="_blank">
+          <img class="footer__social-icon" src="images/vk.svg" alt="VK">
         </a>
       </li>
 
-      <li>
-        <a href="https://ru.pinterest.com" target="_blank">
-          <img src="images/pinterest.svg" alt="Pinterest">
+      <li class="footer__social-list-item">
+        <a class="footer__social-link" href="https://ru.pinterest.com" target="_blank">
+          <img class="footer__social-icon" src="images/pinterest.svg" alt="Pinterest">
         </a>
       </li>
     </ul>
@@ -165,4 +168,5 @@
 
   </body>
 </html>
+
 
