@@ -14,7 +14,6 @@
 
   <!-- СЕКЦИЯ ШАПКА -->
 <header class="header">
-
   <!-- меню -->
   <nav class="header__menu">
     <ul>
@@ -26,44 +25,60 @@
 
   <!-- логотип -->
   <a class="logo">
-    <img src="images/logo.svg" alt="Логотип" >
+    <img src="images/logo.svg" alt="Логотип">
   </a>
-
 
   <!-- адрес и контакты -->
   <address class="contacts">
 
     <a href="tel:+99995555555">+9 999 555 5555</a>
-
     <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
 
     <span>наб. Принсенграхт 263- 265, Амстердам</span>
   </address>
-
-
 </header>
 
+
+
+
+
+
+  <!-- СЕКЦИЯ КОВЕР -->
   <main class="main">
 
-    <!-- СЕКЦИЯ КОВЕР -->
 <section class="cover">
-  <h1> Заголовлк </h1>
 
-  <div class="description">
-    <p> параграф </p>
-    <button type="button"> СДЕЛАТЬ СТАВКУ </button>
-  </div>
+    <!-- ковер -->
+    <div class="cover-lotus">
+        <img src="images/cover.jpg" alt="Лотос">
 
+       <div class="overlay">
+
+    <h1 class="cover__title">
+        <span class="left"> ОНО </span>
+        <span class="center"> ТЕБЕ </span>
+        <span class="right"> НАДО </span>
+    </h1>
+
+    <div class="cover__description">
+        <p class="cover__description-text"> Аукцион вещей, вкоторые никто не верил
+            </p>
+        <button class="bet-button" type="button"> СДЕЛАТЬ СТАВКУ </button>
+    </div>
+    </div>
+    </div>
 </section>
+
 
     <!-- СЕКЦИЯ ЛОТЫ -->
 <section class="lots">
-  <h2> ЛОТЫ </h2>
+  <h2 class="lots__heading"> ЛОТЫ </h2>
 
-  <ul class="lots-list">
+  <ul class="lots__card-list">
 
-    <li>
-      <a href="images/card-lot-01.jpg">
+    <li class="lots__card-list">
+      <a>
+          <img src="images/card-lot-01.jpg" class="card-link" alt="фильм"/>
         <article>
 
         </article>
@@ -71,7 +86,8 @@
     </li>
 
     <li>
-      <a href="images/card-lot-02.jpg">
+      <a>
+        <img src="images/card-lot-02.jpg" class="card-link" alt="книга">
         <article>
 
         </article>
@@ -79,7 +95,8 @@
     </li>
 
     <li>
-      <a href="images/card-lot-03.jpg">
+        <a>
+        <img src="images/card-lot-03.jpg" class="card-link" alt="картина">
         <article>
 
         </article>
@@ -87,8 +104,9 @@
     </li>
 
   </ul>
-  <a href="#" class="all-lots-link">посмотреть больше</a>
+  <a href="#" class="lots__look-more-link">посмотреть больше</a>
 </section>
+
 
     <!-- СЕКЦИЯ ОБ АУКЦИОНЕ -->
     <section class="about">
@@ -117,7 +135,6 @@
       </div>
 
     </section>
-
   </main>
 
 <!-- СЕКЦИЯ ОБ ПОДВАЛ -->
